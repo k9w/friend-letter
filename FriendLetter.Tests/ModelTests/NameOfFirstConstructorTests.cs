@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using AppName.Models;
+using FriendLetter.Models;
 
-namespace AppName.Tests
+namespace FriendLetter.Tests
 {
   [TestClass]
   public class NameOfFirstConstructorTests : IDisposable

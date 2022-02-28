@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppName.Models
+namespace FriendLetter.Models
 {
   public class Item
   {
