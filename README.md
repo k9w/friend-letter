@@ -1,41 +1,76 @@
-#  AppName
+#  Friend Letter
 
-### By Kevin Williams
+## Contributors
 
-#### A console application to [do the app purpose]
+* _Kevin Williams_
+* _Riley Shimp_
+
+#### Generate a letter to a friend
 
 ## Technologies Used
 
-* _Markdown_
 * _C#_
-* _.NET_
+* _.NET 5 (not 6)_
+* _MSTest_
 
 ## Description
 
-_An Epicodus project making a console app to [do the app purpose]_
+An Epicodus project to generate a letter to a friend based on inputs.
 
 ## Setup/Installation Requirements
 
-_You can find the github repository [here](https://github.com/k9w/TemplateRepo-csharp-withTDD)_
+Install Microsoft .NET with C# on your local machine. On the following
+pages, select your version of Windows, macOS, or linux distribution.
 
-_Click the code button, and copy the https link_
+Windows/MacOS: https://dotnet.microsoft.com/en-us/download/dotnet
 
-_In your in git bash or your preferred git terminal navigate to the directory you would like to store the project_
+Linux: https://docs.microsoft.com/en-us/dotnet/core/install/linux
 
-_Enter: "git clone" followed by the https link_
+Clone this repository to your local machine.
 
-_Now that the repository is cloned to your computer, right click on the folder and click open with vs code_
+```$ git clone https://github.com/k9w/<repo-name-here>```
 
-_If you would like to test navigate to ScrabbleScore.Tests and run dotnet restore, once restored run dotnet test._
+Per standard C# practice, rename the project folder to Project.Solution.
 
-_To run the program navigate to ScrabbleScore and run dotnet restore, once restored run dotnet run_
+```$ mv project Project.Solution```
+
+Navigate into the project and into the tests folder.
+
+```$ cd Project.Solution/Project.Tests```
+
+Install the project's dependencies.
+
+```$ dotnet restore```
+
+Run the tests.
+
+```$ dotnet test```
+
+To run the project, cd up and to the project folder.
+
+```$ cd ../Project```
+
+Run the program.
+
+```$ dotnet run```
 
 ## Known Bugs
 
-*_No known bugs_
+* _No known bugs_
 
-## License - MIT
+## License
 
-_If you run into any problems, or need to reach me for a separate reason, feel free to send me an email @exampleemail@email.com with details._
+The code which originated in this project is covered by the [ISC
+License](https://choosealicense.com/licenses/isc). See the file called
+[LICENSE](https://github.com/k9w/friend-letter/blob/main/LICENSE) in
+this same folder for distribution and liability terms as well as
+copyright holder info.
 
-_Copyright (c) 2022 Kevin Williams_
+_Third-party APIs and packages are subject to their own license and
+copyright._
+
+## Contact Information
+
+ - <https://twitter.com/k9w>
+
+ - <https://linkedin.com/in/k9w>
